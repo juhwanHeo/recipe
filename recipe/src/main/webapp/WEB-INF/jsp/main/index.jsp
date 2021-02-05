@@ -100,11 +100,11 @@
 				<svg class="_457">
 				    <g>
 					<rect id="_457" rx="8" ry="8" x="0" y="0" width="599" height="83"></rect>
-					<text class="cook" x="245" y="53" font-size="26px">요리하기</text>
+					<text class="cook" x="245" y="53" font-size="26px" fill="white">요리하기</text>
 		            </g>
 				</svg>
 				<div id="_ba">
-					<span>요리하기</span>
+					<span style="color: white;">요리하기</span>
 				</div>
 			</div>
 			<div id="_20">
