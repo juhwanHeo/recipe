@@ -18,6 +18,11 @@
 	src="${pageContext.request.contextPath}/js/main.js"></script>
 
 <style type="text/css">
+
+.line {
+	font-size: 20px;
+	font-family: bold;
+}
 .wrap-loading { /*화면 전체를 어둡게 합니다.*/
 	position: absolute;
 	left: 0;
@@ -53,11 +58,8 @@
 <noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>	
 
 <div id="wrap">
-	
-	
 	<!-- <input type="text" name="meterial" value="">
 	<button onclick="getRecipe();">확인</button> -->
-	
 	<!-- <table class="">
 		<thead>
 			<tr>
@@ -215,26 +217,25 @@ function getRecipe() {
 			 for(var i=0; i<recipeList.length; i++) {
 				 var recipe = recipeList[i].cooking_DC.split('/');
 				 var meterial_nm = recipeList[i].irdnt_NM.split('#');
-				 row += '<div class="line" id="index'+ recipeList[i].recipe_ID +'">';
+				 row += '<div class="line" id="index'+ recipeList[i].recipe_ID +'"><strong>';
 	             row +=  recipeList[i].recipe_NM_KO;
-	             row += '</div>';
-	             row += '<div>재료: ';
+	             row += '</strong></div>';
+	             row += '<div><strong>재료:</strong><br>';
 	             
 	             for(var k=0; k<meterial_nm.length-1; k++){
 		             row +=  (k+1) + ","+ meterial_nm[k]+" ";
 	             } 
 	             row += '</div>';
-	             row += '<div>';
+	             row += '<div> <strong>조리법:</strong> <br>';
 	             for(var k=0; k<recipe.length; k++){
 		             row += recipe[k] + "<br>";
 	             }
-	             row += '</div>';
+	             row += '</div><hr>';
 			 }
 			 //$("#recipe").append(row);
 			 $("#recipe").html(row);
 			
 		}, beforeSend:function(){
-			 
 			var width = 0;
             var height = 0;
             var left = 0;
