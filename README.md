@@ -25,4 +25,6 @@
  * [레시피 기본정보]( http://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20150827000000000464&filter_ty=O&getBack=&sort_id=&s_data_nm=&instt_id=&cl_code=&shareYn= )
 ## 패치 노트
  * [2021-02-05_1130]( https://github.com/juhwanHeo/recipe/blob/main/changLog/2021-02-05_1130.md )  
+ * [2021-02-05_1800]( https://github.com/juhwanHeo/recipe/blob/main/changLog/2021-02-05_1800.md ) 
+ * [2021-02-05_1950]( https://github.com/juhwanHeo/recipe/blob/main/changLog/2021-02-05_1950.md ) 
 
