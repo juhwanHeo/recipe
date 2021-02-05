@@ -16,8 +16,8 @@
   
 ## 개발 환경
  * 서버 : Apache Tomcat 8.0   
- * 사용중인 언어 : Html, CSS, JSP, Java, JS
- * 개발 툴 : Eclipse 
+ * 사용중인 기술 : Html, CSS, JSP, Java, JS, Spring
+ * 개발 툴 : Eclipse (Egovframework 3.8.0)
  
 ## 사용한 오픈 소스
  * [레시피 재료정보]( http://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20150827000000000465&filter_ty=O&getBack=G&sort_id=&s_data_nm=&instt_id=&cl_code=&shareYn= )
