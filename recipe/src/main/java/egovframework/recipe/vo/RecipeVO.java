@@ -23,15 +23,11 @@ public class RecipeVO {
 	private String COOKING_NO;
 	private String COOKING_DC;
 	private String SUMRY;
-	private String NATION_CODE;
-	private String TY_CODE;
-	private String TY_NM;
 	private String COOKING_TIME;
-	private String CALORIE;
-	private String QNT;
 	private String LEVEL_NM;
 	private String IRDNT_CODE;
-	private String PC_NM;
+	private String IRDNT_NM;
+	private String IRDNT_CPCTY;
 	
 	
 
@@ -81,29 +77,6 @@ public class RecipeVO {
 		SUMRY = sUMRY;
 	}
 
-	public String getNATION_CODE() {
-		return NATION_CODE;
-	}
-
-	public void setNATION_CODE(String nATION_CODE) {
-		NATION_CODE = nATION_CODE;
-	}
-
-	public String getTY_CODE() {
-		return TY_CODE;
-	}
-
-	public void setTY_CODE(String tY_CODE) {
-		TY_CODE = tY_CODE;
-	}
-
-	public String getTY_NM() {
-		return TY_NM;
-	}
-
-	public void setTY_NM(String tY_NM) {
-		TY_NM = tY_NM;
-	}
 
 	public String getCOOKING_TIME() {
 		return COOKING_TIME;
@@ -111,22 +84,6 @@ public class RecipeVO {
 
 	public void setCOOKING_TIME(String cOOKING_TIME) {
 		COOKING_TIME = cOOKING_TIME;
-	}
-
-	public String getCALORIE() {
-		return CALORIE;
-	}
-
-	public void setCALORIE(String cALORIE) {
-		CALORIE = cALORIE;
-	}
-
-	public String getQNT() {
-		return QNT;
-	}
-
-	public void setQNT(String qNT) {
-		QNT = qNT;
 	}
 
 	public String getLEVEL_NM() {
@@ -145,12 +102,20 @@ public class RecipeVO {
 		IRDNT_CODE = iRDNT_CODE;
 	}
 
-	public String getPC_NM() {
-		return PC_NM;
+	public String getIRDNT_NM() {
+		return IRDNT_NM;
 	}
 
-	public void setPC_NM(String pC_NM) {
-		PC_NM = pC_NM;
+	public void setIRDNT_NM(String iRDNT_NM) {
+		IRDNT_NM = iRDNT_NM;
 	}
 
+	public String getIRDNT_CPCTY() {
+		return IRDNT_CPCTY;
+	}
+
+	public void setIRDNT_CPCTY(String iRDNT_CPCTY) {
+		IRDNT_CPCTY = iRDNT_CPCTY;
+	}
+	
 }

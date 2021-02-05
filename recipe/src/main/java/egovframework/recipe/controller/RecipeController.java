@@ -51,7 +51,7 @@ public class RecipeController {
 		LOGGER.info("map: " + map);
 		List<String> recipeIdList = RecipeUtils.getRecipeIdList(map.get("meterial").toString());
 		List<RecipeVO> recipeList = RecipeUtils.getRecipeList(recipeIdList, RecipeUtils.getRecipeNMList(recipeIdList));
-
+		recipeList = RecipeUtils.getMeterialList(recipeList);
 		LOGGER.info("recipeList: " + recipeList);
 		Map<String, Object> res = new HashMap<String, Object>();
 		res.put("recipeList", recipeList);
